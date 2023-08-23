@@ -1,0 +1,50 @@
+body{
+    margin-left:8%;
+    margin-top:20px;
+    background-color:#ffffff;
+    margin-right:8%;
+}
+body, .header, .nav, .samping, .footer{
+    border:1px solid rgb(15,15,15);
+}
+.header{
+    width:100%;
+    padding:2px 0px 2px 0px;
+    background-color:#00FFFF;
+    text-align:center;
+    color:rgb(78, 3, 3);
+}
+.header h3{
+    font-style:italic;
+}
+.nav{
+    width:100%;
+    text-align:center;
+    color:black;
+    height:50px
+}
+.samping{
+    float:left;
+    height:350px;
+    width:19%;
+}
+.samping a{
+    color:black;
+    text-decoration:none;
+}
+.isi{
+    /*float:left;*/
+    height:352px;
+    border:1px solid black;
+    color:black;
+    background-color: rgb(225, 194, 255);
+    padding-left: 7px;
+    width: 99,5%;
+}
+.footer{
+    background-color:#FF1493;
+    color: black;
+    text-align: center;
+    width: 100%;
+    clear:both;
+}
